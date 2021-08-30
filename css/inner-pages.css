@@ -1,0 +1,724 @@
+/* --------------------------------------
+   Global Style
+-----------------------------------------*/
+.page-title {
+    background: linear-gradient(to right, #f08a79 0%, #fbdede 100%);
+    text-align: center;
+    overflow: hidden;
+    max-height: 400px;
+    margin-top: 79px;
+    position: relative;
+}
+
+.page-title:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0.07;
+}
+
+.page-title .content {
+    text-align: left;
+    margin-top: 120px;
+}
+
+.page-title .content h2 {
+    color: #fff;
+    font-size: 45px;
+    font-weight: 800;
+    line-height: 1.3;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+.page-title .content ul li {
+    position: relative;
+    display: inline-block;
+    margin-right: 10px;
+    padding-right: 15px;
+    font-size: 18px;
+    text-transform: capitalize;
+    letter-spacing: 0.5px;
+}
+
+.page-title .content ul li:last-child {
+    color: #eee;
+    padding-right: 0;
+    margin-right: 0;
+}
+
+.page-title .content ul li:first-child:after,
+.page-title .content ul li.two:after {
+    content: '\f101';
+    font-family: 'FontAwesome';
+    position: absolute;
+    right: -5px;
+    top: 3px;
+    font-size: 14px;
+    font-weight: 800;
+    color: #eee;
+}
+
+.page-title .content ul li a {
+    color: #fff;
+}
+
+.page-title .page-image img {
+    opacity: 0.5;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+/* --------------------------------------
+   404 Error Content
+-----------------------------------------*/
+
+.error-page {
+    background-color: #f3fffe;
+    padding-top: 135px;
+    padding-bottom: 135px;
+    margin-top: 79px;
+}
+
+.error-page h1 {
+    font-size: 100px;
+    line-height: 1;
+    color: #323232;
+}
+
+.error-page h3 {
+    font-size: 22px;
+    color: #323232;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.error-page p {
+    font-size: 16px;
+    color: #888;
+    margin-bottom: 35px;
+}
+
+/* --------------------------------------
+   Ou Team
+-----------------------------------------*/
+
+.team {
+    padding-bottom: 70px;
+}
+
+.team .member {
+    margin-bottom: 30px;
+}
+
+/* --------------------------------------
+   Blog
+-----------------------------------------*/
+.blog {
+    background: #fff;
+    padding-bottom: 70px;
+}
+
+/* --------------------------------------
+   Blog sidebar
+-----------------------------------------*/
+
+.blog .blog-sidebar .sidebar-search {
+    position: relative;
+}
+
+.blog .blog-sidebar .sidebar-search .form-group {
+    margin-bottom: 30px;
+}
+
+.blog .blog-sidebar .sidebar-search .form-control,
+.blog .blog-sidebar .sidebar-search .form-control:focus {
+    color: #666;
+    outline: none;
+    box-shadow: none;
+    border-radius: 30px;
+    height: 50px;
+    padding: 12px 45px 12px 30px;
+    border: 1px solid #fbdede;
+}
+
+.blog .blog-sidebar .sidebar-search .search-btn {
+    position: absolute;
+    top: 50%;
+    right: 2%;
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    transform: translateY(-50%);
+    width: 36px;
+    height: 36px;
+    line-height: 33px;
+    text-align: center;
+    border-radius: 50%;
+    font-size: 15px;
+    background: linear-gradient(to right, #f08a79 0%, #fbdede 100%);
+    border: 1px solid #fbdede;
+    color: #fff;
+    cursor: pointer;
+    outline: none;
+}
+
+.blog .blog-sidebar .sidebar-search .search-btn:hover {
+    background: linear-gradient(to left, #f08a79 0%, #fbdede 100%);
+}
+
+.blog .blog-sidebar .sidebar-categories {
+    padding: 35px 20px;
+    margin-bottom: 30px;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.05);
+}
+
+.blog .blog-sidebar .sidebar-categories h4 {
+    font-size: 20px;
+    letter-spacing: 0.3px;
+    text-transform: capitalize;
+    color: #666;
+    font-weight: 600;
+    margin-bottom: 25px;
+}
+
+.blog .blog-sidebar .categories-list {
+    margin-bottom: 0;
+}
+
+.blog .blog-sidebar .categories-list li a {
+    display: block;
+    color: #888;
+    font-size: 15px;
+    padding-bottom: 15px;
+    margin-bottom: 15px;
+    border-bottom: 1px solid #e7e7ea;
+}
+
+.blog .blog-sidebar .categories-list li:last-of-type a {
+    padding-bottom: 0;
+    margin-bottom: 0;
+    border-bottom: none;
+}
+
+.blog .blog-sidebar .categories-list li a span {
+    float: right;
+    background: linear-gradient(to right, #f08a79 0%, #fbdede 100%);
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+.blog .blog-sidebar .categories-list li a:hover {
+    background: linear-gradient(to right, #f08a79 0%, #fbdede 100%);
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+.blog .blog-sidebar .sidebar-posts {
+    padding: 35px 20px;
+    margin-bottom: 30px;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.05);
+}
+
+.blog .blog-sidebar .sidebar-posts h4 {
+    font-size: 20px;
+    letter-spacing: 0.3px;
+    text-transform: capitalize;
+    color: #666;
+    font-weight: 600;
+    margin-bottom: 25px;
+}
+
+.blog .blog-sidebar .sidebar-posts .post-inner {
+    position: relative;
+    padding-left: 110px;
+    margin-bottom: 25px;
+}
+
+.blog .blog-sidebar .sidebar-posts .post-inner:last-of-type {
+    margin-bottom: 12px;
+}
+
+.blog .blog-sidebar .sidebar-posts .post-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 90px;
+}
+
+.blog .blog-sidebar .sidebar-posts .post-info h5 a {
+    display: inline-block;
+    font-size: 16px;
+    letter-spacing: 0.3px;
+    text-transform: capitalize;
+    color: #777;
+    font-weight: 600;
+    margin: 8px 0 4px;
+}
+
+.blog .blog-sidebar .sidebar-posts .post-info h5 a:hover {
+    background: linear-gradient(to right, #f08a79 0%, #fbdede 100%);
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+.blog .blog-sidebar .sidebar-posts .post-info p {
+    font-size: 14px;
+    letter-spacing: 0.3px;
+    color: #999;
+    font-weight: 500;
+    margin: 0;
+}
+
+.blog .blog-sidebar .sidebar-archives {
+    padding: 35px 20px;
+    margin-bottom: 30px;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.05);
+}
+
+.blog .blog-sidebar .sidebar-archives h4 {
+    font-size: 20px;
+    letter-spacing: 0.3px;
+    text-transform: capitalize;
+    color: #666;
+    font-weight: 600;
+    margin-bottom: 25px;
+}
+
+.blog .blog-sidebar .archives-list {
+    margin-bottom: 0;
+}
+
+.blog .blog-sidebar .archives-list li a {
+    display: block;
+    color: #888;
+    font-size: 15px;
+    letter-spacing: 0.3px;
+    margin-bottom: 15px;
+}
+
+.blog .blog-sidebar .archives-list li:last-of-type a {
+    margin-bottom: 0;
+}
+
+.blog .blog-sidebar .archives-list li a:hover {
+    background: linear-gradient(to right, #f08a79 0%, #fbdede 100%);
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+.blog .blog-sidebar .sidebar-tags {
+    padding: 35px 20px;
+    margin-bottom: 30px;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.05);
+}
+
+.blog .blog-sidebar .sidebar-tags h4 {
+    font-size: 20px;
+    letter-spacing: 0.3px;
+    text-transform: capitalize;
+    color: #666;
+    font-weight: 600;
+    margin-bottom: 25px;
+}
+
+.blog .blog-sidebar .tags-list {
+    margin-bottom: 0;
+}
+
+.blog .blog-sidebar .tags-list li {
+    display: inline-block;
+}
+
+.blog .blog-sidebar .tags-list li a {
+    display: inline-block;
+    color: #888;
+    font-size: 15px;
+    letter-spacing: 0.3px;
+    margin-bottom: 5px;
+    margin-right: 10px;
+}
+
+.blog .blog-sidebar .tags-list li a:hover {
+    background: linear-gradient(to right, #f08a79 0%, #fbdede 100%);
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+/* --------------------------------------
+   Blog Single
+-----------------------------------------*/
+
+.blog .post .post-content .post-text p:last-of-type {
+    margin-bottom: 15px;
+}
+
+.blog .post .post-content .more-details {
+    padding: 0 20px;
+}
+
+.blog .post .post-content .more-details p {
+    line-height: 1.8;
+    font-weight: 400;
+    margin-bottom: 15px;
+    color: #888;
+    font-size: 15px;
+}
+
+.blog .post .post-content .more-details blockquote {
+    position: relative;
+    background: linear-gradient(to right, #f08a79 0%, #fbdede 100%);
+    border: 1px solid #f3f0f0;
+    border-radius: 6px;
+    margin: 0 0 15px;
+    padding: 20px;
+}
+
+.blog .post .post-content .more-details blockquote i {
+    position: absolute;
+    top: 50%;
+    left: 14px;
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    transform: translateY(-50%);
+    width: 40px;
+    height: 40px;
+    line-height: 42px;
+    font-size: 17px;
+    border-radius: 50%;
+    text-align: center;
+    color: #ffffff;
+    background: transparent;
+    border: 1px solid #ffffff;
+}
+
+.blog .post .post-content .more-details blockquote p {
+    color: #fff;
+    margin-bottom: 0;
+    padding-left: 55px;
+}
+
+.blog .post .post-content .post-footer {
+    padding: 35px 20px;
+}
+
+.blog .post .post-content .post-footer h5 {
+    font-size: 17px;
+    letter-spacing: 0.5px;
+    text-transform: capitalize;
+    color: #666;
+    font-weight: 600;
+    margin-bottom: 25px;
+}
+
+.blog .post .post-content .post-footer .post-share {
+    margin-bottom: 35px;
+}
+
+.blog .post .post-content .post-footer .post-share ul li {
+    display: inline-block;
+    margin-right: 14px;
+}
+
+.blog .post .post-content .post-footer .post-share ul li a i {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    line-height: 38px;
+    text-align: center;
+    font-size: 18px;
+    border-radius: 50%;
+    background: linear-gradient(to right, #ff765e 0%, #fdb2b2 100%);
+    -webkit-background-clip: text;
+    color: transparent;
+    border: 1px solid #fd6d6d;
+    -webkit-transition: color 0s ease-in-out;
+    -moz-transition: color 0s ease-in-out;
+    -o-transition: color 0s ease-in-out;
+    -ms-transition: color 0s ease-in-out;
+    transition: color 0s ease-in-out;
+}
+
+.blog .post .post-content .post-footer .post-share ul li a:hover i {
+    color: #fff;
+    background: linear-gradient(to right, #f08a79 0%, #fdb0b0 100%);
+    -webkit-transition: color 0s ease-in-out;
+    -moz-transition: color 0s ease-in-out;
+    -o-transition: color 0s ease-in-out;
+    -ms-transition: color 0s ease-in-out;
+    transition: color 0s ease-in-out;
+}
+
+.blog .post .post-content .post-footer .post-tags ul li {
+    display: inline-block;
+}
+
+.blog .post .post-content .post-footer .post-tags ul li a {
+    display: inline-block;
+    color: #888;
+    font-size: 15px;
+    letter-spacing: 0.3px;
+    margin-bottom: 5px;
+    margin-right: 12px;
+}
+
+.blog .post .post-content .post-footer .post-tags ul li a:hover {
+    background: linear-gradient(to right, #f08a79 0%, #fbdede 100%);
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+.blog .post .post-content .post-comments {
+    padding: 0 20px 25px;
+}
+
+.blog .post .post-content .post-comments h3 {
+    font-size: 21px;
+    letter-spacing: 0.5px;
+    text-transform: capitalize;
+    color: #666;
+    font-weight: 600;
+    margin-bottom: 35px;
+}
+
+.blog .post .post-content .post-comment {
+    position: relative;
+    margin-bottom: 35px;
+}
+
+.blog .post .post-content .post-comment.reply {
+    margin-left: 90px;
+}
+
+.blog .post .post-content .post-comment .comment-image img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}
+
+.blog .post .post-content .post-comment h4 {
+    font-size: 16px;
+    letter-spacing: 0.5px;
+    text-transform: capitalize;
+    color: #666;
+    font-weight: 600;
+    margin-bottom: 7px;
+}
+
+.blog .post .post-content .post-comment span {
+    display: inline-block;
+    color: #888;
+    font-size: 15px;
+    letter-spacing: 0.5px;
+    margin-bottom: 10px;
+}
+
+.blog .post .post-content .post-comment .reply-btn {
+    position: absolute;
+    top: 0;
+    right: 0;
+    font-size: 16px;
+    background: linear-gradient(to right, #f08a79 0%, #fbdede 100%);
+    -webkit-background-clip: text;
+    color: transparent;
+    letter-spacing: 0.4px;
+}
+
+.blog .post .post-content .post-comment .reply-btn i {
+    font-weight: 500;
+    margin-right: 7px;
+    background: linear-gradient(to right, #f08a79 0%, #fbdede 100%);
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+.blog .post .post-content .post-comment p {
+    font-size: 14px;
+    line-height: 1.8;
+    color: #888;
+    margin-bottom: 0;
+}
+
+.blog .post .post-content .post-form {
+    padding: 0 20px 35px;
+}
+
+.blog .post .post-content .post-form h3 {
+    font-size: 21px;
+    letter-spacing: 0.5px;
+    text-transform: capitalize;
+    color: #666;
+    font-weight: 600;
+    margin-bottom: 35px;
+}
+
+.blog .post .post-content .post-form .form-group {
+    margin-bottom: 25px;
+}
+
+.blog .post .post-content .post-form .form-control,
+.blog .post .post-content .post-form .form-control:focus {
+    color: #666;
+    outline: none;
+    box-shadow: none;
+    border-radius: 0;
+    height: 60px;
+    padding: 12px;
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid #6fdcef;
+}
+
+.blog .post .post-content .post-form textarea.form-control,
+.blog .post .post-content .post-form textarea.form-control:focus {
+    height: 155px;
+    resize: none;
+    padding-top: 18px;
+}
+
+.source {
+    display: block;
+    color: #f08a79;
+    text-align: end;
+}
+.source:hover {
+    color: red;
+}
+
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+    width: 100%;
+}
+
+.col-lg-9 {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 100%;
+    flex: 0 0 100%;
+    max-width: 100%;
+}
+
+.prevention .prevention-box1 {
+    padding-left: 0px;
+}
+
+/* --------------------------------------
+   Contact Us
+-----------------------------------------*/
+.contact .contact-boxes {
+    margin-bottom: 30px;
+}
+
+.contact .contact-boxes .contact-box {
+    padding: 20px;
+    background: linear-gradient(to right, #f08a79 0%, #fbdede 100%);
+    text-align: center;
+    color: #f1f3f1;
+    border-radius: 6px;
+    margin-bottom: 30px;
+    position: relative;
+}
+
+.contact .contact-boxes .contact-box .icon-spread {
+    position: absolute;
+    top: -5px;
+    right: -5px;
+    opacity: 0.04;
+}
+
+.contact .contact-boxes .contact-box .icon-box {
+    font-size: 40px;
+}
+
+.contact .contact-boxes .contact-box .content-box h5 {
+    font-size: 18px;
+    margin: 15px 0 5px;
+}
+
+.contact .contact-boxes .contact-box .content-box p {
+    font-size: 15px;
+}
+
+/* Medium devices (tablets, less than 992px) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+    /*=========== Page Title ============*/
+    .page-title .content {
+        margin-top: 55px;
+    }
+
+    .page-title .content h2 {
+        font-size: 40px;
+    }
+}
+
+/* Small Devices */
+@media (max-width: 767.98px) {
+    /*=========== Page Title ============*/
+    .page-title {
+        min-height: 365px;
+    }
+
+    .page-title .content {
+        margin-top: 100px;
+    }
+
+    /*=========== FAQ ============*/
+    .faq {
+        padding-top: 80px;
+        padding-bottom: 80px;
+    }
+
+    .faq .card .card-header h5 .btn-link {
+        font-size: 16px;
+    }
+
+    /*=========== Our Team ============*/
+    .team {
+        padding-bottom: 50px;
+    }
+
+    /*=========== Blog ============*/
+    .blog {
+        padding-bottom: 50px;
+    }
+
+    /*=========== Single Blog ============*/
+    .blog .post .post-content .more-details .image,
+    .blog .post .post-content .post-comment .comment-image {
+        margin-bottom: 15px;
+    }
+
+    .blog .post .post-content .post-comment.reply {
+        margin-left: 65px;
+    }
+
+    /*=========== Contact Us ============*/
+    .contact .flaticon-lotus:before {
+        top: 70%;
+    }
+}
+
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+    /*=========== Page Title ============*/
+    .page-title .content h2 {
+        font-size: 35px;
+    }
+
+    /*=========== FAQ ============*/
+    .faq .card .card-header h5 .btn-link {
+        font-size: 15px;
+    }
+
+    .faq .card .card-body {
+        font-size: 14px;
+    }
+}
